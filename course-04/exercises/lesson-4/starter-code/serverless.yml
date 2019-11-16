@@ -261,7 +261,7 @@ resources:
         Bucket: !Ref AttachmentsBucket
 
     SNSTopicPolicy:
-      Type: AWS::SNS::TopicPolicy
+      Type: AWS::SNS::TopicPolicy 
       Properties:
         PolicyDocument:
           Version: "2012-10-17"
